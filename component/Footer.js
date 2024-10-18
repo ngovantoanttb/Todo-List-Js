@@ -29,7 +29,7 @@ function Footer({ todos, filter, filters }) {
             `}
             <div class="progress-bar">
                 <div class="progress" style="width: ${percentage}%"></div>
-                <span class="percentage">${percentage}%</span>
+                <span class="percentage">Task Completed ${percentage}%</span>
             </div>
         </footer>
     `;
